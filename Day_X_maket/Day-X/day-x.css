@@ -1,0 +1,279 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Merienda', cursive;
+    list-style-type: none;
+}
+body{
+    background-color: #D3D3D3;
+}
+
+/* Header */
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00BFFF;
+    height: 100px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #00BFFF;
+}
+.logo_circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(63,66,116,1) 46%, rgba(116,53,53,1) 100%);
+    border-color: thistle;
+    border-width: 5px;
+}
+
+.logo_name{
+    color: whitesmoke;
+}
+.header__contacts{
+    color: #FFE4B5;
+}
+.container{
+    width:80%;
+    background-color: white;
+}
+
+/* My profile */
+
+.profile{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.profile__background{
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-image: url(https://funart.pro/uploads/posts/2021-04/1617344588_27-p-oboi-temnie-gori-28.jpg);
+    background-size: cover;
+}
+.profile__links{
+    line-height: 30px;
+}
+.profile__buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 480px;
+}
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+}
+.profile__my_photo{
+    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG2c3a4TZopyQDPs9xNXc9u11H2sIHF9mD3Q&usqp=CAU);
+}
+.hire_link{
+    color: white;
+    width: 200px;
+    height: 70px;
+    border-color: white;
+    background-color: transparent;
+    font-size: 25px;
+}
+.resume_link{
+    color: white;
+    width: 250px;
+    height: 70px;
+    border-color: #1E90FF;
+    background-color: #1E90FF;
+    font-size: 25px;
+}
+.links{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.apps{
+    margin-right: 20px;
+}
+
+/* About me */
+
+.aboutme{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.aboutme__inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.aboutme__base_info{
+    margin-top: -3px;
+    width: 50%;
+}
+.aboutme__about{
+    margin-top: 30px;
+    margin-left: 5%;
+    width: 50%;
+    
+}
+.txt_aboutme{
+    margin-top: 20px;
+    width: 80%;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+.info_list{
+    display: flex;
+    margin-bottom: 10px;
+}
+ul{
+    margin-top: 30px;
+}
+.list_feature{
+    width: 33.3333%;
+}
+.list_value{
+    width: 66.6667%;
+}
+
+/* Skills */
+
+.skills{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.skills__left{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.skills__left_inner{
+    height: 80%;
+    width: 90%;
+}
+
+.scroll{
+    position: relative;
+    width: 90%;
+    height: 10px;
+    background-color: #D3D3D3;
+    border-radius: 5px;
+}
+.scroll_item{
+    margin-top: 10px;
+}
+.scroll_anim{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #00BFFF;
+    z-index: 1;
+    font-size: 10px;
+    animation-name: scrolling;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.skills__right{
+    background-size: cover;   
+    background-image: url(https://dev.by/storage/images/48/01/93/24/derived/dd227b198cc10e10b6d59122ff43d056.jpg);
+}
+.skills__left{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*  Work experience starts  */
+.w_experience{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center; 
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+.container_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height:500px;
+    width: 90%;
+}
+.w_experience__block{
+    height: 150px;
+}
+.w_experience__block__left{
+    width: 160px;
+    height: 130px;
+    background-color: #DCDCDC;
+}
+.w_experience__block__right{
+    height: 130px;
+    width: 80%;
+    box-shadow: 1px 1px 3px 0px gray;
+}
+@keyframes scrolling {
+    0%{
+        width: 10px; 
+    }
+    100%{
+        width: 100%;
+    }
+}
+@media all and (max-width:541px) {
+    .profile__buttons{
+        flex-direction: column;
+    }
+    .hire_link{
+        width: 170px;
+        height: 50px;
+    }
+    .resume_link{
+        margin-top: 12px;
+        width: 170px;
+        height: 50px;
+        font-size: 20px;
+    }
+    header{
+        width: 100%;
+    }
+    .aboutme__inner{
+        flex-direction: column;
+    }
+    .aboutme__about{
+        width: 80%;
+    }
+    .aboutme__base_info{
+        width: 80%;
+        margin-bottom: 10px;
+    }
+}
+@media all and (max-width:426px) {
+    header{
+        width: 106.5%;
+    }
+}
+
+
+

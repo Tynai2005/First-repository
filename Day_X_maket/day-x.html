@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Day-X/day-x.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+<!-- Header starts -->
+
+    <header>
+        <div class="container">
+            <div class="header">
+                <div class="header__logo">
+                    <div class="logo_circle">
+                        <div class="logo_name">S.T.</div>
+                    </div>
+                </div>
+                <div class="header__contacts">
+                    <div class="email">
+                        mymail@gmail.com
+                    </div>
+                    <div class="number">
+                        +996 (123) 456 789
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!-- Header ends -->
+
+<!-- Profile starts -->
+
+    <section class="profile">
+        <div class="container profile__background">
+            <div class="profile__my_photo"></div>
+            <div class="profile__links">
+                <h1>Привет, я Тынай</h1>
+                <p>Программист, веб-дизайнер, мейкер</p>
+                <div class="links">
+                    <a href="#"><img class="apps" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwS6TrSSdFiy9neT6r8tWauZYu9tVFyXoSiA&usqp=CAU" alt=""></a>
+                    <a href="#"><img class="apps" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUI8GS2W04hJEXhlQBzq-bZs2sUpgSJzbJJ2nPo0g_Nehe3dV2Cfih6ue2vYDalTvif4o&usqp=CAU" alt=""></a>
+                    <a href="#"><img class="apps" src="data:image/png;base64,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" alt=""></a>
+                    <a href="#"><img src="data:image/png;base64,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" alt=""></a>
+                </div>
+            <div class="profile__buttons">
+                <a href="#"><button class="hire_link">Мои услуги</button></a>
+                <a href="#"><button class="resume_link">Скачать резюме</button></a>
+            </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Profile ends-->
+
+<!-- About me starts -->
+    <section class="aboutme">
+        <div class="container aboutme__inner">
+            <div class="aboutme__about">
+                <h2 class="txt_about">Обо мне</h2>
+                <p class="txt_aboutme">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero corrupti deserunt, quia quaerat ipsam tempore totam eligendi est deleniti asperiores libero qui ut architecto, debitis adipisci commodi illo incidunt facere dolorem assumenda sunt? Harum assumenda reiciendis quia! Architecto dolores accusamus iusto, sint modi placeat ullam nesciunt magnam! Nam odit est voluptates. Eaque, dolores officiis. Dicta quibusdam asperiores, ipsum accusamus vero est sed harum! Sapiente, quasi distinctio placeat error dolore
+                </p>
+            </div>
+            <div class="aboutme__base_info">
+                <h2 class="base_info_txt">
+                    Основная информация
+                </h2>
+                <ul>
+                    <li class=info_list>
+                        <div class="list_feature">Адрес:</div>
+                        <div class="list_value">Где-то/где-то/где-то</div>
+                    </li>
+                    <li class=info_list>
+                        <div class="list_feature">Дата рождения:</div>
+                        <div class="list_value">02.07.2005</div>
+                    </li>
+                    <li class=info_list>
+                        <div class="list_feature">Место рождения:</div>
+                        <div class="list_value">Роддом</div>
+                    </li>
+                    <li class=info_list>
+                        <div class="list_feature">Язык:</div>
+                        <div class="list_value">Русский</div>
+                    </li>
+                    <li class=info_list>
+                        <div class="list_feature">Пол</div>
+                        <div class="list_value">Мужской</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+<!-- About me ends -->
+
+<!-- Skills starts -->
+
+    <section class="skills">
+        <div class="container">
+            <div class="skills__left">
+                <div class="skills__left_inner">
+                    <div class="txt_skills">Навыки</div>
+                    <div class="skill_scroll">
+                        <div class="scroll_item">
+                            <div class="scroll_txt">HTML</div>
+                            <div class="scroll"><div class="scroll_anim">100%</div></div>                            
+                        <div class="scroll_item">
+                            <div class="scroll_txt">JS</div>
+                            <div class="scroll"><div class="scroll_anim">100%</div></div>                           
+                        <div class="scroll_item">
+                            <div class="scroll_txt">CSS</div>
+                            <div class="scroll"><div class="scroll_anim">100%</div></div>                           
+                        <div class="scroll_item">
+                            <div class="scroll_txt">Bootstrap</div>
+                            <div class="scroll"><div class="scroll_anim">100%</div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills__right">
+                
+            </div>
+        </div>
+    </section>
+<!-- Work experience starts -->
+    <section class="w_experience">
+        <div class="container cont">
+            <div class="container_2">
+                <div class="w_experience__title">Work Experience</div>
+                <div class="w_experience__block">
+                   <div class="w_experience__block__left"></div>
+                   <div class="w_experience__block__right"></div> 
+                </div>
+                <div class="w_experience__block">
+                    <div class="w_experience__block__left"></div>
+                    <div class="w_experience__block__right"></div> 
+                </div>
+                <div class="w_experience__block">
+                    <div class="w_experience__block__left"></div>
+                    <div class="w_experience__block__right"></div> 
+                </div>
+            </div>
+        </div>   
+    </section>
+<!-- Work experience  ends -->
+</body>
+</html>

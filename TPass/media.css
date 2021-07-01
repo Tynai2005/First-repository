@@ -1,0 +1,8 @@
+@media all and (max-width: 960px) {
+    .menu_btn{
+        visibility: visible;
+    }
+    .nav-inner-list{
+        display: none;
+    }
+}
